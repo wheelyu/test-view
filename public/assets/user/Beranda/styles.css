@@ -1,0 +1,154 @@
+
+/* beranda */
+.bg {
+    background-image: url('../../../img/bg.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+.artikel{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.artikel img{
+    height: 300px;
+}
+.margin-card{
+    margin-top: 400px;
+}
+.artikel button{
+    border: #d71c1c 2px solid;
+}
+.artikel button:hover{
+    color: #d71c1c;
+    background-color: #ffffff;
+}
+.indeks .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s; 
+    margin: 0.5s;
+}
+.indeks .card:hover{
+    transform: scale(1.1);
+
+}
+.indeks img{
+    height: 300px;
+}
+.indeks .btna{
+    height: 50px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #d71c1c;
+    border: #ffffff 2px solid;
+}
+.indeks .btna:hover{
+    color: #d71c1c;
+    background-color: #ffffff;
+    border: #d71c1c 2px solid;
+    transition: 200ms;
+}
+.btn-container{
+    display: flex-end;
+}
+.btn-container button{
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+.tentang{
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff 20%, #d71c1c 10%, #d71c1c);
+    height: 510px;
+}
+
+.tentang img{
+    width: 358px;
+    height: 413px;
+    border: 25px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 20px;
+    float: left;
+}
+.tentang p{
+    color: #ffffff;
+    margin-top: 120px;
+    text-align: justify;
+    margin-left: 400px;
+    flex: 1;
+    font-size: 24px;
+}
+.tentang h5{
+    margin-left: 100px;
+}
+.card button{    
+    width: 100%;
+}
+
+.aplikasi{
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff 40%, #e6e6e6 10%, #e6e6e6);
+    height: 300px;
+}
+.aplikasi button{
+    margin-top: 50px;
+    color: #000;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.aplikasi a{
+    text-decoration: none   ;
+}
+@media (max-width: 576px) {
+    .btn-container {
+        display: none;
+    }
+}
+.aplikasi img{
+    width: 200px;
+}
+.img-zoom{
+    transition: 0.5s;
+    margin: 0.5s;
+}
+.img-zoom:hover{
+    transform: scale(1.1);
+    margin: +20px;
+}
+/* footer */
+/* .btn{
+    border-radius: 20px;
+    background-color: #d7d7d7;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.btn:hover{
+    transition-duration: 0.5s;
+    background-color: #000000;
+    color: #d7d7d7;
+} */
+
+
+i{
+    margin-right: 10px;
+}
+/* media query */
+@media (max-width: 768px) {
+    .card-group{
+        display: block;
+        width: 100%;
+    }
+    .tentang{
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    .card-group{
+        display: block;
+        width: 100%;
+    }
+    .tentang{
+        font-size: 10px;
+    }
+    .aplikasi{
+        display: none;
+    }
+}

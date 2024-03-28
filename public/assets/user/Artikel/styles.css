@@ -1,0 +1,131 @@
+
+/* beranda */
+.bg{
+    background-image: url("../../../img/andan.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.breadcrumb{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px ;
+    height: 30px;
+    width: 230px;
+    background-image: linear-gradient(to left, #ffffff, #ffffff 95%, #d71c1c 10%, #d71c1c);
+    
+}
+.breadcrumb .active{
+    color: #d71c1c;
+}
+.breadcrumb i, .breadcrumb a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.breadcrumb a:hover{
+    color: #d71c1c;
+    transition: 0.3s;
+}
+
+.semua{
+    display: flex;
+}
+.artikel img{
+    height: 300px;
+}
+.artikel button{
+    border: #d71c1c 2px solid;
+}
+.artikel button:hover{
+    color: #d71c1c;
+    background-color: #ffffff;
+}
+h4{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+h3{
+    margin-top: 100px;
+    color: white;
+    width: 590px;
+}
+.kotak{
+    background-color: #d71c1c;
+    width: 50px;
+    height: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.navs{
+    display: block;
+    width: 120px;
+}
+.btn-container{
+    display: flex-end;
+}
+.btn-container button{
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+.card button{    
+    width: 100%;
+}
+.artikel{
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);   
+}
+.judul{
+    display: flex;
+    border-bottom: 2px solid #d71c1c;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+.right input{
+    border: none;
+}
+.right input:focus{
+    outline: none;
+}
+.right table{
+    border: #000 solid 1px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 10px; /* Menentukan radius sudut */
+    overflow: hidden; 
+    margin-right: 100px;
+    
+}
+
+.isi a{
+    color: #d71c1c;
+    text-decoration: none;
+    font-weight: bold;
+}
+.isi small{
+    float: right;
+}
